@@ -2,17 +2,16 @@ body {
   font-family: "Arial", "Meiryo", sans-serif;
   font-size: 20px;
   text-align: center;
-
-  
+}
   
   h1 {
     font-family: "Josefin Sans", sans-serif;
     font-size: 40px;
     font: skyblue;
     letter-spacing: 1.2em;
-    text-decoration: underline; color: rgb(115, 115, 114);
+    border-bottom: solid 3px rgb(115, 115, 114);
     text-shadow: 2px 2px 3px gray;
-}
+  }
   
   
   .blue {
@@ -25,5 +24,4 @@ body {
   
 #basic p {
   font-weight: bold;
-}
 }
