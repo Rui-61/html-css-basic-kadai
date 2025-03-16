@@ -1,5 +1,5 @@
 
-body {
+body p {
   margin: 0px;
 }
 
@@ -11,8 +11,7 @@ header {
 }
 
 h1 {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin: 0px;
   font-size: 20px;
   color: rgb(255,255,255);
 }
@@ -39,10 +38,6 @@ main{
   text-align: center;
 }
 
-p:nth-of-type(1):first-letter {
-  color: rgb(97, 206, 249);
-  font-weight: bold;
-}
 
 
 h2 {
@@ -55,20 +50,17 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-.contents img {
-  margin: 10px 0;
-  width: 70%;
+
+
+.contents :nth-of-type(2):first-letter {
+  color: rgb(97, 206, 249);
+  font-weight: bold;
 }
 
 
-
-
-
-
-p, a {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 20px;
+.contents img {
+  margin: 10px;
+  width: 70%;
 }
 
 
@@ -81,7 +73,7 @@ footer{
 }
 
 
-.a:link {
+a:link {
    color: rgb(255, 255, 255);
 }  
 
